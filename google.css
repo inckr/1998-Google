@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    box-sizing: border-box;
+}
+
+.logo{
+    text-align: center;
+    margin: 1rem;
+}
+
+.search_text{
+    width: 45%;
+}
+.button{
+    width: 100%;
+    text-align: center;
+}
+.links {
+    margin: 0 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link_1, .link_2, .get_google {
+    /* flex: 1; */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.link_1{
+    padding-top: 0.6rem;
+    width: 40%;
+    margin-right:0.2% ;
+background-color: #7EE5DA;
+font-size: 16px;
+}
+.link_2{
+    padding-top: 0.5rem;
+    width: 15%;
+    margin-right:0.2% ;
+background-color: #70CCC2;
+font-size: 13px;
+}
+.get_google{
+    padding: 0.1rem ;
+    width: 45%;
+    font-size: 15px;
+background-color: #62B3AA;
+}
+.inc{
+    text-align: center;
+}
